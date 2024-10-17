@@ -1,3 +1,3 @@
 # ProjetoWeb
 
-## Projeto da Faculdade Puc.
+## Projeto da Faculdade Puc Minas.
