@@ -5,15 +5,6 @@ body {
     font-size: 60px;
     margin: 0;
     padding: 0;
-
-.navbar {
-    background-color: #F5F5F5;
-    align-items: center;
-
-
-}
-.navbar-brand {
-    height: 40px;
 }
 
 .navbar-right .nav > li > a {
@@ -25,7 +16,38 @@ body {
     padding: 10px 15px;
     font-size: large;
     font-weight: bold;
-    color:#2A406A; 
+    color:#2A406A !important; 
   }
+ 
+.main {
+    background: #2A406A;
+    flex:auto;
+    align-items:center;
+    display: flex
+}
 
+.dados {
+    width: 97vw;
+    height: 85vh;
+    background:#F5F5F5;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    h2{
+        color: #2A406A;
+    }
+    
+    h3{
+        font-family: 'share tech', serif;
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 35px;
+        border-color: #F5F5F5;
+        color: black !important;
+        background-color: #F5F5F5 !important; 
+    }
 }
