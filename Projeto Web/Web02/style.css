@@ -20,7 +20,7 @@ body {
 
 .main {
   width: 97vw;
-  height: 75vh;
+  height: 85vh;
   background-color: #F5F5F5;
   border-radius: 20px;
   padding: 10px;
@@ -42,6 +42,7 @@ align-items: center;
 }
 
 .media{
+  margin: 40px 0px 0px;
   h2{
     font-family: 'share tech';
   }
@@ -60,6 +61,9 @@ align-items: center;
 }
 
 .opn{
+  position: absolute;
+  top: 25%;
+  right: 39%;
   display: inline-flex;
   align-items: center;
   h1 {
@@ -69,10 +73,17 @@ align-items: center;
     color: black;}  
 }
 
+.avaliacao{
+ text-align: center;
+ position: relative;
+ bottom: 30%;
+ left: 10%;
+}
+
 .rating{
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: relative;
+  bottom: 8%;
+  right: 20%;
   transform: translate(-50%,-50%) rotateY(180deg);
   display: flex;
 }
@@ -96,11 +107,6 @@ align-items: center;
   color: #0e1316;
 }
 
-body{
-  margin: 0;
-  padding: 0;
-  background: #252d3d;
-}
 .rating label:after{
   content: '\f005';
   font-family: fontAwesome;
@@ -117,4 +123,14 @@ body{
 .rating label:hover ~ label:after,
 .rating input:checked ~ label:after{
   opacity: 1;
+}
+
+label{
+  font-family: 'Roboto';
+    font-size: 20px;
+}
+
+textarea{
+  font-family: 'Roboto';
+    font-size: 20px;
 }
