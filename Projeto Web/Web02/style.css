@@ -20,7 +20,7 @@ body {
 
 .main {
   width: 97vw;
-  height: 95vh;
+  height: 83vh;
   background-color: #F5F5F5;
   border-radius: 20px;
   padding: 10px;
@@ -41,25 +41,6 @@ justify-content: space-between;
 align-items: center;
 }
 
-.media{
-  margin: 40px 0px 0px;
-  h2{
-    font-family: 'share tech';
-  }
-  h3{
-    font-family: 'Roboto';
-    font-size: 20px;
-  }
-  h4{ 
-    font-family: 'Roboto';
-    font-size: 20px;
-  }
-  h5{
-    font-family: 'Roboto';
-    font-size: 20px;
-  }
-}
-
 .opn{
   display:flex;
   justify-content: center;
@@ -72,8 +53,8 @@ align-items: center;
 }
 
 .avaliacao{
-  position: relative;
-  bottom: 40%;
+ position: relative;
+ bottom: 20%;
 }
 
 label{
@@ -81,6 +62,7 @@ label{
   font-size: 20px;
   display: block;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 textarea{
@@ -95,12 +77,12 @@ button{
  font-size: 20px;
  display: block;
  margin: auto;
- margin-top: 10px;
+ margin-top: 20px;
 }
 
 .rating{
   position: relative;
-  bottom: 8%;
+  bottom: 0%;
   right: 20%;
   transform: translate(-50%,-50%) rotateY(180deg);
   display: flex;
