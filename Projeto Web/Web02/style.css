@@ -70,6 +70,11 @@ textarea{
  font-size: 20px;
  display: block;
  margin: auto;
+ btn{
+  align-items: center;
+  position: absolute;
+top: 75%;
+}
 }
 
 button{
@@ -78,6 +83,13 @@ button{
  display: block;
  margin: auto;
  margin-top: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .rating{
