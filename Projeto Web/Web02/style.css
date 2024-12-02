@@ -54,7 +54,7 @@ align-items: center;
 
 .avaliacao{
  position: relative;
- bottom: 20%;
+ margin-top: -160px;
 }
 
 label{
@@ -89,7 +89,7 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .rating{
